@@ -1,4 +1,4 @@
-def ReduceImplementation(X,params): 
+def ReduceImplementation(X,params): #Basic MapImplementation
     params=list(params)
     if len(params)>=2:
         params[1]=params[0]=X(params[0],params[1])
